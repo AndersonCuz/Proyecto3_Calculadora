@@ -1,0 +1,155 @@
+body {
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(135deg,
+    #00B7D4, #505488, #2F3F80, #161569,
+    #5A4894, #A950A1, #FF7CAE);
+    background-size: 500%;
+}
+
+h1 {
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Handjet', cursive;
+}
+.container {
+    width: fit-content;
+    margin: 50px auto;
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(2, 53, 83);
+}
+
+.teclado {
+    width: 80px;
+    height: 80px;
+    margin: 3px;
+    border-radius: 20px;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.teclado:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.tecladoMultiplicaion {
+    width: 80px;
+    height: 80px;
+    margin: 3px;
+    border-radius: 20px;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.tecladoMultiplicaion:hover {
+    background-color: #f76606;
+    color: #fff;
+}
+
+.tecladoResta {
+    width: 80px;
+    height: 80px;
+    margin: 3px;
+    border-radius: 20px;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.tecladoResta:hover {
+    background-color: #f76606;
+    color: #fff;
+}
+
+.tecladoSuma {
+    width: 80px;
+    height: 80px;
+    margin: 3px;
+    border-radius: 20px;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.tecladoSuma:hover {
+    background-color: #f76606;
+    color: #fff;
+}
+
+.tecladoIgual {
+    width: 80px;
+    height: 80px;
+    margin: 3px;
+    border-radius: 20px;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.tecladoIgual:hover {
+    background-color: #f76606;
+    color: #fff;
+}
+
+.tecladoDivision {
+    width: 80px;
+    height: 80px;
+    margin: 3px;
+    border-radius: 20px;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.tecladoDivision:hover {
+    background-color: #f76606;
+    color: #fff;
+}
+
+.tecladoAC {
+    width: 80px;
+    height: 80px;
+    margin: 3px;
+    border-radius: 20px;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.tecladoAC:hover {
+    background-color: #f76606;
+    color: #fff;
+}
+
+#opRealizada {
+    background-color: #ccc;
+    padding: 3px;
+    text-align: right;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+#resultado {
+    height: 80px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    font-size: 40px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #fff;
+}
